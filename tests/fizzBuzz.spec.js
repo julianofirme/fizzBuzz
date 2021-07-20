@@ -25,4 +25,8 @@ describe("FizzBuzz", () => {
     it("FizzBuzz returns Buzz to number 5", () => {
         expect(fizzBuzz.fizzBuzz(5)).to.equal("Buzz");
     });
+
+    it("FizzBuzz returns FizzBuzz to number 15", () => {
+        expect(fizzBuzz.fizzBuzz(15)).to.equal("FizzBuzz");
+    });
 });
