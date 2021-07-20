@@ -9,4 +9,8 @@ describe("FizzBuzz", () => {
     it("FizzBuzz returns 2", () => {
         expect(fizzBuzz.fizzBuzz(2)).to.equal(2);
     });
+
+    it("FizzBuzz returns Fizz to number 3", () => {
+        expect(fizzBuzz.fizzBuzz(3)).to.equal("Fizz");
+    });
 });
